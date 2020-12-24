@@ -1,0 +1,92 @@
+section.fourthpart{
+    display: flex; justify-content: center;
+    padding-top: 100px;
+    color: rgb(36, 36, 36);
+}
+section.fourthpart>.contact{
+    width: 300px;padding-right: 100px;
+}
+section.fourthpart>.contact>.con{
+    font-size: 200%;padding-bottom: 60px;
+    font-weight: bold;letter-spacing: 15px;
+}
+section.fourthpart>.contact>.name{
+    font-size:150%;font-family: 'Pacifico', cursive; 
+    padding-bottom: 10px;
+}
+section.fourthpart>.contact>.social{
+    font-size:80%; margin: 20px 0px;
+}
+section.fourthpart>.contact>.line{
+    margin: 10px 0px; margin-right: 275px;  
+}
+/*section.fourthpart>.typingblock>.box input{
+    width: 400px; height: 35px;
+    margin: 5px 0px; font-size: 50%;   
+}*/
+/*section.fourthpart>.typingblock>.boxbig input{
+    width: 400px; height: 110px;
+    margin: 5px 0px; font-size: 50%;     
+}*/
+#MessageBoxsmell{
+    width: 400px; height: 35px;
+    margin: 5px 0px; font-size: 50%;       
+}
+#MessageBox{
+    width: 402px; height: 110px;
+    margin: 5px 0px; font-size: 75%;
+}
+section.fourthpart>.typingblock>.box>.board{
+    margin: 0px 10px; font-size: 60%;
+}
+section.fourthpart>.typingblock>.boxbig>.message{
+    margin: 0px 10px; font-size: 60%;
+}
+section.fourthpart>.typingblock>.submit{
+    font-size: 60%; text-align: right;
+    margin: 20px 5px;
+}
+section.footer>.footer{
+    color: white; margin-top: 50px;
+    font-size: 30%;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+@media(max-width:950px){
+    section.fourthpart{
+        flex-wrap: wrap; width: 85%;
+        margin: 0px 50px;
+    }
+}
+@media(max-width:550px){
+    section.fourthpart{
+        width: 80%; 
+        padding-top: 50px; 
+    }
+    section.fourthpart>.contact{
+        width: 200px;
+    }
+    section.fourthpart>.contact>.con{
+        font-size: 150%; padding-bottom: 30px;
+        letter-spacing: 10px;
+    }
+    section.fourthpart>.contact>.name{
+        font-size:120%;   
+    }
+    section.fourthpart>.contact>.line{
+        margin: 0px 0px; margin-right: 175px;  
+    }
+    #MessageBoxsmell{
+        width: 300px; height: 30px;
+        margin-right: 25px; font-size: 30%;   
+    }
+    #MessageBox{
+        width: 300px; height: 100px;
+        margin-right: 25px; font-size: 30%;   
+    }
+    section.fourthpart>.typingblock>.submit{
+        font-size: 50%; margin-right: 26px;
+    } 
+} 

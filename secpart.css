@@ -1,0 +1,64 @@
+section.secpart{
+    margin: 70px 50px;
+    height: 300px;
+}
+section.secpart>.area{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    text-shadow: 0px 0px 2px #ffffff;
+}
+section.secpart>.area>.zone{
+    height: 250px;
+    width: 300px;
+    padding: 0px 20px;   
+}
+section.secpart>.area>.zone>.pic{
+    height: 200px; transition: background-image 0.5s;
+}
+section.secpart>.area>.zone>.pic1{
+    background-image: url(motain.jpg);
+    background-size: cover;
+}
+section.secpart>.area>.zone>.pic2{
+    background-image: url(48841119036_546127fd60_k.jpg);
+    background-size: cover;
+}
+section.secpart>.area>.zone>.pic3{
+    background-image: url(49087554598_418a22a2f6_k.jpg);
+    background-size: cover;
+}
+section.secpart>.area>.zone>.album{
+    padding-top: 30px;
+    font-size: 70%;
+}
+section.secpart>.area>.zone>.loc{
+    font-family: "Courgette" , "cursive";
+    font-size: 140%;
+}
+section.secpart>.area>.zone>.line{
+    width: 30px;
+}
+
+@media(max-width:950px){
+    section.secpart{
+        margin-bottom: 550px;
+    }
+    section.secpart>.area{
+        flex-wrap: wrap;
+    }
+    section.secpart>.area>.zone{
+        width: 120%; height: 120%;
+    }
+    section.secpart>.area>.zone>.pic{
+        background-position: center;
+    }
+    section.secpart>.area>.zone>.album{
+        padding-top: 15px;
+        font-size: 50%;
+    }
+    section.secpart>.area>.zone>.loc{
+        font-size: 100%;
+    }
+}

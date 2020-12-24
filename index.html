@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Travel Photographer</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='nav.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='secpart.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='thirdpart.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='fourthpart.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="bg">
+            <div class="menu">
+                <span class="content name">Roy Lee</span>
+                <span class="hide content home"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">Home
+                </span>
+                <span class="hide content protfolio" 
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);"
+                    onclick="location.href='protfolio.html'">Protfolio
+                </span>
+                <span class="hide content videos"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">Videos
+                </span>
+                <span class="hide content clients"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">Clients
+                </span>
+                <span class="hide content contact"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">Contact
+                </span>
+            </div>
+            <!----------------------------------------->
+            
+            <!----------------------------------------->
+            <div class="hidemenu">
+                <div class="lines" 
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);"
+                    onmousedown="press(this);">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <!----------------------------------------->
+            <ul class="pullout" id="pulloutmenu">
+                <ul class="ShutDown" 
+                    onmousedown="shutdown(this);">X close
+                </ul>
+                <li class="form">
+                    <span class="hide content home"
+                        onmouseover="over(this);" 
+                        onmouseout="out(this);">Home
+                    </span>
+                </li>
+                <li class="form">
+                    <span class="hide content protfolio" 
+                        onmouseover="over(this);" 
+                        onmouseout="out(this);">Protfolio
+                    </span>
+                </li>
+                <li class="form">
+                    <span class="hide content videos"
+                        onmouseover="over(this);" 
+                        onmouseout="out(this);"
+                        onmousedown="open(this);">Videos
+                    </span>
+                </li>
+                <li class="form">
+                    <span class="hide content clients"
+                        onmouseover="over(this);" 
+                        onmouseout="out(this);">Clients
+                    </span>
+                </li>
+                <li class="form">
+                    <span class="hide content contact"
+                        onmouseover="over(this);" 
+                        onmouseout="out(this);">Contact
+                    </span>
+                </li>
+            </ul>
+            <!----------------------------------------->
+            <div class="topic">Travel Photographer</div>
+            <div class="subject">Seeing the World, Through <br/> the Eyes of My Lens</div>
+            <div class="button">
+                <span 
+                    class="text" 
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">GET IN THE MOOD
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="secpart">
+        <div class="area">
+            <div class="zone">
+                <div class="pic pic1" 
+                    onmouseover="changepic1(this);" 
+                    onmouseout="reduction(this);">
+                </div>
+                <div class="album">Snow mountain</div>
+                <hr class="line"></hr>
+                <div class="loc">Where</div>
+            </div>
+            <div class="zone">
+                <div class="pic pic2" 
+                    onmouseover="changepic2(this);" 
+                    onmouseout="reduction(this);">
+                </div>
+                <div class="album">Belgium</div>
+                <hr class="line"></hr>
+                <div class="loc">Belgium</div>
+            </div>
+            <div class="zone">
+                <div class="pic pic3" 
+                    onmouseover="changepic3(this);" 
+                    onmouseout="reduction(this);">
+                </div>
+                <div class="album">Bitou Cape</div>
+                <hr class="line"></hr>
+                <div class="loc">Taiwan</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thirdpart">
+            <div class="block">
+                <div class="subtitle">HELLO THERE!!</div>
+                <div class="text">I'm a paragraph. Click here to add your own text and edit me. 
+                    It’s easy. Just click “Edit Text” or double click me to add your own content 
+                    and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
+                    I’m a great place for you to tell a story and let your users know a little more about you.
+                </div>
+            </div>
+        <div class="Picture"></div>
+    </section>
+
+    <section class="fourthpart">
+        <div class="contact">
+            <div class="con">CONTACT</div>
+            <div class="name">Roy Lee</div>
+            <hr class="line"></hr>
+            <div class="social">royphotospace</div>
+            <div class="social">Roy Lee</div>
+        </div>
+        <!----------------------------------------->
+        <div class="typingblock">
+            <div class="box">
+                <input type="text" id="MessageBoxsmell"
+                    placeholder="NAME"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">
+            </div>
+            <div class="box">
+                <input type="text" id="MessageBoxsmell"
+                    placeholder="EMAIL"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">
+            </div>
+            <div class="box">
+                <input type="text" id="MessageBoxsmell"
+                    placeholder="SUBJECT"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">
+            </div>
+            <div class="boxbig">
+                <textarea id="MessageBox"
+                    placeholder="MESSAGE"
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);"></textarea>
+            </div>
+            <div class="submit">
+                <span 
+                    onmouseover="over(this);" 
+                    onmouseout="out(this);">SUBMIT
+                </span>
+            </div>
+        </div>  
+    </section>
+    <section class="footer">
+        <div class="footer">2020 by Roy</div>
+    </section>
+    <!------------------------------------------------>
+    <script>
+        function over(elem){
+            elem.style.backgroundColor = "#b0c4de";
+            elem.style.color ="#ffffff";
+        }
+        function out(elem){
+            elem.style.backgroundColor = "";
+            elem.style.color ="";
+        }
+        function open(elem){
+            elem.style.backgroundColor = "";
+            elem.style.color ="";
+        }
+        function changepic1(elem){
+            elem.style.backgroundImage = "url('mike-kotsch-.jpg')";
+        }
+        function changepic2(elem){
+            elem.style.backgroundImage = "url('48841129741_49d14bd91c_k.jpg')";
+        }
+        function changepic3(elem){
+            elem.style.backgroundImage = "url('49298102146_4eac9350ad_k.jpg')";
+        }
+        function reduction(elem){
+            elem.style.backgroundImage = "";
+        }
+        function press(elem){
+            let menu = document.getElementById("pulloutmenu");
+            menu.style.display ="block" ;
+        }
+        function shutdown(elem){
+            let menu = document.getElementById("pulloutmenu");
+            menu.style.display = "none" ;
+        }
+    </script>
+</body>
+</html>
